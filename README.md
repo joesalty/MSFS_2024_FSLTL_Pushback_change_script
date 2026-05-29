@@ -51,10 +51,10 @@ This works only if execution policy is already set.
 - Creates a **.bak backup** of each `aircraft.cfg`  
 - Replaces `PUSHBACK = 1` with `PUSHBACK = 0`  
 - Logs everything to:
-
 ```
 C:\pushback_edit_log.txt
 ```
+By default the script runs in dry-run mode. You have to change the `$dryRun = $true` parameter to `$dryRun = $false` to make the changes.
 
 ## 🧠 How dry‑run mode works
 
