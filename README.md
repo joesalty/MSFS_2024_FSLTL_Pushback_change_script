@@ -1,5 +1,5 @@
 # MSFS_2024_FSLTL_Pushback_change_script
-Powershell script to mass update aircraft.cfg files in FSLTL folders in MSFS 2024
+Powershell script to mass update aircraft.cfg files in FSLTL folders in MSFS 2024 to workaround the no traffic issue.
 
 ---
 ## ✅ **1. Save the script as a .ps1 file**
