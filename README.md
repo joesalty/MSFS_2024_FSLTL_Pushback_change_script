@@ -47,6 +47,8 @@ This works only if execution policy is already set.
 ---
 
 ## 🧠 What happens when you run it
+By default the script runs in dry-run mode. You have to change the `$dryRun = $true` parameter to `$dryRun = $false` to make the changes.
+
 - It scans **all aircraft folders** under your FSLTL directory  
 - Creates a **.bak backup** of each `aircraft.cfg`  
 - Replaces `PUSHBACK = 1` with `PUSHBACK = 0`  
@@ -54,7 +56,6 @@ This works only if execution policy is already set.
 ```
 C:\pushback_edit_log.txt
 ```
-By default the script runs in dry-run mode. You have to change the `$dryRun = $true` parameter to `$dryRun = $false` to make the changes.
 
 ## 🧠 How dry‑run mode works
 
